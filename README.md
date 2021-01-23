@@ -8,6 +8,7 @@ Renewable Data Store Api is an api that aims at exposing historial data.
 - create a .env file with the following variables
 - copy the contains of .env.dist to .env
 - npm run import
+- npm run build
 - npm start
 
 ##2. Useful commands:

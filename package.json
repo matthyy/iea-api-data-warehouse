@@ -4,14 +4,14 @@
   "description": "renewable IEA API",
   "scripts": {
     "prebuild": "rm -rf ./build/config",
-    "import": "node data/import-data.js",
+    "import": "node -r dotenv/config data/import-data.js",
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -p tsconfig.json --watch",
-    "lint": "eslint rc-df-af-coupon-webservice --ext .ts --quiet",
-    "lint:fix": "eslint rc-df-af-coupon-webservice --ext .ts --fix",
+    "lint": "eslint --ext .ts --quiet",
+    "lint:fix": "eslint --ext .ts --fix",
     "test": "NODE_ENV=test jest",
     "test-ci": "NODE_ENV=test jest --clearCache && jest --coverage --silent --config jest.config.ci.js",
-    "start": "node -r dotenv/config rc-df-af-coupon-webservice/build/server.js",
+    "start": "node -r dotenv/config build/server.js",
     "start:dev": "nodemon -r dotenv/config --watch 'src/**/*.ts' --exec 'ts-node --files' src/server.ts",
     "start:debug": "nodemon --watch 'src/**/*.ts' --exec 'node --inspect=0.0.0.0:9229 --require dotenv/config --require ts-node/register' src/server.ts"
   },

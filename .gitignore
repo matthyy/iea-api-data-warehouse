@@ -15,7 +15,7 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-rc-df-af-coupon-webservice/coverage
+coverage
 
 # nyc test coverage
 .nyc_output
