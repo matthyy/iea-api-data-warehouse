@@ -1,0 +1,787 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Renewable Store should return renewableData 1`] = `
+Object {
+  "aggregate": Object {
+    "_id": "all",
+    "totalCharger": 3605.62,
+    "totalVehicle": 27.89,
+  },
+  "results": Array [
+    Object {
+      "country": "australia",
+      "nbCharger": 1930,
+      "nbVehicle": 8.6,
+      "year": 2019,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 13.3,
+      "nbVehicle": 2.08,
+      "year": 2019,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 727.02,
+      "nbVehicle": 5.72,
+      "year": 2018,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 459.3,
+      "nbVehicle": 0.71,
+      "year": 2018,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 476,
+      "nbVehicle": 3.92,
+      "year": 2017,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.36,
+      "year": 2017,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.85,
+      "year": 2016,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2016,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.15,
+      "year": 2015,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.03,
+      "year": 2015,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 1.13,
+      "year": 2014,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2014,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.18,
+      "year": 2013,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2013,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2012,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2012,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+  ],
+}
+`;
+
+exports[`API Renewable Store should return renewableData with country queryParam from and to set 1`] = `
+Object {
+  "aggregate": Object {
+    "_id": "all",
+    "totalCharger": 1662.32,
+    "totalVehicle": 17.21,
+  },
+  "results": Array [
+    Object {
+      "country": "australia",
+      "nbCharger": 727.02,
+      "nbVehicle": 5.72,
+      "year": 2018,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 459.3,
+      "nbVehicle": 0.71,
+      "year": 2018,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 476,
+      "nbVehicle": 3.92,
+      "year": 2017,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.36,
+      "year": 2017,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.85,
+      "year": 2016,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2016,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.15,
+      "year": 2015,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.03,
+      "year": 2015,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 1.13,
+      "year": 2014,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2014,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.18,
+      "year": 2013,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2013,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2012,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2012,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+  ],
+}
+`;
+
+exports[`API Renewable Store should return renewableData with country queryParam from, to and country set 1`] = `
+Object {
+  "aggregate": Object {
+    "_id": "australia",
+    "totalCharger": 1203.02,
+    "totalVehicle": 16.03,
+  },
+  "results": Array [
+    Object {
+      "country": "australia",
+      "nbCharger": 727.02,
+      "nbVehicle": 5.72,
+      "year": 2018,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 476,
+      "nbVehicle": 3.92,
+      "year": 2017,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.85,
+      "year": 2016,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.15,
+      "year": 2015,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 1.13,
+      "year": 2014,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.18,
+      "year": 2013,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2012,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+  ],
+}
+`;
+
+exports[`API Renewable Store should return renewableData with country queryParam set 1`] = `
+Object {
+  "aggregate": Object {
+    "_id": "australia",
+    "totalCharger": 3133.02,
+    "totalVehicle": 24.63,
+  },
+  "results": Array [
+    Object {
+      "country": "australia",
+      "nbCharger": 1930,
+      "nbVehicle": 8.6,
+      "year": 2019,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 727.02,
+      "nbVehicle": 5.72,
+      "year": 2018,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 476,
+      "nbVehicle": 3.92,
+      "year": 2017,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.85,
+      "year": 2016,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.15,
+      "year": 2015,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 1.13,
+      "year": 2014,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.18,
+      "year": 2013,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2012,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+  ],
+}
+`;
+
+exports[`API Renewable Store should return renewableData with country queryParam sort set 1`] = `
+Object {
+  "aggregate": Object {
+    "_id": "all",
+    "totalCharger": 3605.62,
+    "totalVehicle": 27.89,
+  },
+  "results": Array [
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2005,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2006,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2007,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2008,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2009,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2010,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2011,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2012,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2012,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 0.18,
+      "year": 2013,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2013,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 1.13,
+      "year": 2014,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0,
+      "year": 2014,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.15,
+      "year": 2015,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.03,
+      "year": 2015,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 0,
+      "nbVehicle": 2.85,
+      "year": 2016,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.08,
+      "year": 2016,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 476,
+      "nbVehicle": 3.92,
+      "year": 2017,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 0,
+      "nbVehicle": 0.36,
+      "year": 2017,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 727.02,
+      "nbVehicle": 5.72,
+      "year": 2018,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 459.3,
+      "nbVehicle": 0.71,
+      "year": 2018,
+    },
+    Object {
+      "country": "australia",
+      "nbCharger": 1930,
+      "nbVehicle": 8.6,
+      "year": 2019,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 13.3,
+      "nbVehicle": 2.08,
+      "year": 2019,
+    },
+  ],
+}
+`;
+
+exports[`API Renewable Store should return renewableData with country queryParam year set 1`] = `
+Object {
+  "aggregate": Object {
+    "_id": "all",
+    "totalCharger": 1943.3,
+    "totalVehicle": 10.68,
+  },
+  "results": Array [
+    Object {
+      "country": "australia",
+      "nbCharger": 1930,
+      "nbVehicle": 8.6,
+      "year": 2019,
+    },
+    Object {
+      "country": "brazil",
+      "nbCharger": 13.3,
+      "nbVehicle": 2.08,
+      "year": 2019,
+    },
+  ],
+}
+`;

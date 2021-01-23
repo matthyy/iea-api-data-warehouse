@@ -1,0 +1,76 @@
+openapi: 3.0.0
+info:
+  title: Renewable Api Service
+  version: 1.0.0
+  description: Renewable Api Service
+tags:
+  - {name: "Renewable Api", description: "Renewable Api endpoint"}
+paths:
+  /renewableData:
+    get:
+      summary: Get a renewableData
+      tags:
+        - renewableData
+      responses:
+        '200':
+          description: Successful request
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/RenewableData'
+        '400':
+          description: Bad Request
+        '500':
+          description: something went wrong
+      parameters:
+        - name: country
+          in: query
+          schema:
+            type: string
+        - name: sort
+          in: query
+          schema:
+            type: string
+          required: true
+        - name: from
+          in: query
+          schema:
+            type: string
+        - name: to
+          in: query
+          schema:
+            type: string
+        - name: year
+          in: query
+          schema:
+            type: string
+components:
+  schemas:
+    RenewableData:
+      type: object
+      properties:
+        aggregate:
+          type: object
+          properties:
+            _id :
+              type: string
+            totalVehicle:
+              type: integer
+            totalCharger:
+              type: integer
+        results:
+          type: array
+          items:
+            type: obbject
+            properties:
+              _id:
+                type: string
+              totalVehicle:
+                type: integer
+              totalCharger:
+                type: integer
+              country:
+                type: string
+              year:
+                type: string
