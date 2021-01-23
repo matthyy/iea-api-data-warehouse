@@ -15,9 +15,9 @@ export const getRenewableData = async (
     next: NextFunction
 ): Promise<void> => {
     try {
-        const vehicles = await fetchRenewableData(req.query)
+        const data = await fetchRenewableData(req.query)
 
-        res.status(200).json(vehicles)
+        res.status(200).json(data)
     } catch (error) {
         next(error)
     }

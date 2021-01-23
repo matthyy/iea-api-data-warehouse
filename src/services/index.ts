@@ -37,13 +37,11 @@ export const fetchRenewableData = async ({
             $gt: parseInt(from),
             $lt: parseInt(to),
         }
-
         aggregate.push({
             $match: {
-                ...aggregate[0]?.$match,
                 year: {
-                    $gt: parseInt(from),
-                    $lt: parseInt(to),
+                    $gt: from ? parseInt(from) : 2000,
+                    $lt: to ? parseInt(to) : 2021,
                 },
             },
         })

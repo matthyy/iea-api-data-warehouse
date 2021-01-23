@@ -6,11 +6,13 @@ mongoose.connection.on('connected', function () {
 })
 
 mongoose.connection.on('error', function (err) {
-    logger.error('Mongoose default connection error has occurred', err)
+    logger.error('Mongoose default connection error has occurred')
+    logger.error(err)
 })
 
 mongoose.connection.on('disconnected', function (err) {
-    logger.error('Mongoose disconnected', err)
+    logger.error('Mongoose disconnected')
+    logger.error(err)
 })
 
 mongoose.set('debug', process.env.NODE_ENV === 'dev')

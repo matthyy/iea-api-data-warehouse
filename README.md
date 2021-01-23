@@ -3,13 +3,16 @@
 Renewable Data Store Api is an api that aims at exposing historial data.
 
 ##1 Setup the project
+- nvm use
 - npm install
 - docker-compose up -d
 - create a .env file with the following variables
 - copy the contains of .env.dist to .env
 - npm run import
 - npm run build
-- npm start
+- npm run start
+
+go to: http://localhost:3000
 
 ##2. Useful commands:
 It exists different commands to launch the app :
@@ -24,7 +27,7 @@ It exists different commands to launch the app :
 - eslint
 - prettier
 - mongoose
-- jest plus supertest
+- jest and supertest
 - swagger
 
 
